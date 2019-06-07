@@ -1,0 +1,33 @@
+LIST ALL TCP IP CONFIGURATION
+ipconfig /all
+
+RELEASE RENEW IP ADDRESS (CONTACT DHCP SERVER)
+ipconfig /renew or release / renew
+
+FLUSH CACHED DNS 
+ipconfig /flushdns
+
+TEST TCP/IP INSTALLED CORRECTLY
+ping 127.0.0.1
+
+PING HOST IN NETWORK
+ping hostname or ping 192.168.1.1
+
+TRACE ROUTE TO DOMAIN
+tracert yahoo.com
+
+DISPLAY ALL LOCAL NETWORK CONNECTION
+netstat -ant or netstat -antob
+
+DISPLAY ARP TABLE (IP / MAC)
+arp -a 
+
+DISPLAY NETBIOS TABLE (NETBIOS NAME RESOLUTION)
+nbtstat -c
+
+RESOLVE DNS NAME BY QUERY DNS SERVER
+nslookup yahoo.com
+
+DISPLAY DETAIL DNS RECORDS FOR A DOMAIN
+nslookup -querytype=ns yahoo.com  or nslookup -querytype=mx microsoft.com
+
